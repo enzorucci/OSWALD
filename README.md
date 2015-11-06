@@ -20,7 +20,7 @@ OSWALD estimates relative compute power among host and devices to reach a well-b
 
 ### OSWALD execution and performance
 
-In addition, it offers two execution modes: (1) FPGA(s) and (2) concurrent host and FPGA(s). On a heterogeneous platform based on two Xeon E5-2695 v3 and a single Altera Stratix V GSD5 Half-Length PCIe Boards, OSWALD reaches up to 58 GCUPS on FPGA and 401 GCUPS on hybrid mode (host+FPGA), while searching Environmental NR database.
+In addition, OSWALD offers two execution modes: (1) FPGA(s) and (2) concurrent host and FPGA(s). On a heterogeneous platform based on two Xeon E5-2670 and a single Altera Stratix V GSD5 Half-Length PCIe Boards, OSWALD reaches up to 58 GCUPS on FPGA mode and 179 GCUPS on hybrid mode (host+FPGA), while searching Environmental NR database.
 
 ## Usage
 Databases must be preprocessed before searching it.
