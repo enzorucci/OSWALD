@@ -4,21 +4,21 @@ OpenCL Smith-Waterman Algorithm on Altera FPGA for Large Protein Databases
 ## Description
 OSWALD is a software to accelerate Smith-Waterman protein database search on heterogeneous architectures based on Altera FPGAs. It exploits OpenMP multithreading and SIMD computing through SSE and AVX2 extensions on the host while it takes advantage of pipeline and vectorial parallelism on the FPGAs. 
 
-### OSWALD main characteristics:
+### OSWALD main characteristics
 
-*portable
+* Portable
 
 Altera OpenCL SDK provides portability to FPGA code.
 
-*completely functional
+* Completely functional
 
 Queries, database, substitution matrix and gap penalty values are configurable.
 
-*general
+* General
 
 OSWALD estimates relative compute power among host and devices to reach a well-balanced workload distribution.
 
-### OSWALD execution and performance:
+### OSWALD execution and performance
 
 In addition, it offers two execution modes: (1) FPGA(s) and (2) concurrent host and FPGA(s). On a heterogeneous platform based on two Xeon E5-2695 v3 and a single Altera Stratix V GSD5 Half-Length PCIe Boards, OSWALD reaches up to 58 GCUPS on FPGA and 401 GCUPS on hybrid mode (host+FPGA), while searching Environmental NR database.
 
