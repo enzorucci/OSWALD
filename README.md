@@ -134,7 +134,13 @@ OSWALD execution
 * Workload balance and data locality exploitation are critical to achieve good performance. Tune the database percentage used to estime relative compute power and the host block width with the *-p* and *-b* options, respectively.
 
 ## Reference
-*Under evaluation*
+*OSWALD: OpenCL Smith-Waterman on Altera FPGA for Large Protein Databases.*
+Enzo Rucci, Carlos García, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-Matías.
+International Journal of High Performance Computing Applications; 2016; *In press*
+
+*Smith-Waterman Protein Search with OpenCL on an FPGA.*
+Enzo Rucci, Carlos García, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-Matías.
+2015 IEEE Trustcom/BigDataSE/ISPA; DOI:10.1109/Trustcom.2015.634
 
 ## Changelog
 * November 06, 2015 (v1.0)
