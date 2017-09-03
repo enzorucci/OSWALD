@@ -135,16 +135,17 @@ OSWALD execution
 
 ## Reference
 *OSWALD: OpenCL Smith-Waterman on Altera FPGA for Large Protein Databases.*
-Enzo Rucci, Carlos García, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-Matías.
-International Journal of High Performance Computing Applications; 2016; *In press*
+Enzo Rucci, Carlos GarcÃ­a, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-MatÃ­as.
+International Journal of High Performance Computing Applications; 2016; DOI:10.1177/1094342016654215
 
 *Smith-Waterman Protein Search with OpenCL on an FPGA.*
-Enzo Rucci, Carlos García, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-Matías.
+Enzo Rucci, Carlos GarcÃ­a, Guillermo Botella, Armando De Giusti, Marcelo Naiouf and Manuel Prieto-MatÃ­as.
 2015 IEEE Trustcom/BigDataSE/ISPA; DOI:10.1109/Trustcom.2015.634
 
 ## Changelog
+* September 03, 2017 (v1.0)
+Source code released
 * November 06, 2015 (v1.0)
 Binary code released
-
 ## Contact
 If you have any question or suggestion, please contact Enzo Rucci (erucci [at] lidi.info.unlp.edu.ar)
